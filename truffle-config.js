@@ -47,6 +47,18 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
       provider: () => new HDWalletProvider("8ff3ca2d9985c3a52b459e2f6e7822b23e1af845961e22128d5f372fb9aa5f17", "http://127.0.0.1:8545"),
     },
+    okbtestokx: {
+      host: "https://okbtestrpc.okx.com",     // Localhost (default: none)
+      port: 443,            // Standard Ethereum port (default: none)
+      network_id: "195",       // Any network (default: none)
+      provider: () => new HDWalletProvider("13977ec5c2fd6f2fa064a54919ea6f1b2efaf2982082e14560cf7536bd1ad670", "https://okbtestrpc.okx.com"),
+    },
+    okbtest: {
+      host: "https://okbtestrpc.okbchain.org",     // Localhost (default: none)
+      port: 443,            // Standard Ethereum port (default: none)
+      network_id: "195",       // Any network (default: none)
+      provider: () => new HDWalletProvider("13977ec5c2fd6f2fa064a54919ea6f1b2efaf2982082e14560cf7536bd1ad670", "https://okbtestrpc.okbchain.org"),
+    },
     //
     // An additional network, but with some advanced options…
     // advanced: {
