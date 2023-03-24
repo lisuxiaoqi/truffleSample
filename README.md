@@ -1,3 +1,7 @@
+## 环境
+npm install web3
+npm install @truffle/hdwallet-provider
+
 ## 合约代码
 contracts/simple.sol
 
@@ -13,4 +17,10 @@ const SimpleStorage = artifacts.require('Simple');
 const simpleStorageInstance = await SimpleStorage.deployed();
 await simpleStorageInstance.set(35)
 await simpleStorageInstance.get()
+```
+
+## 使用web3调用合约
+```
+cd call
+node rpc.js
 ```
