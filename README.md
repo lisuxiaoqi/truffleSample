@@ -1,7 +1,8 @@
 ## 环境
+```
 npm install web3
 npm install @truffle/hdwallet-provider
-
+```
 ## 合约代码
 contracts/simple.sol
 
